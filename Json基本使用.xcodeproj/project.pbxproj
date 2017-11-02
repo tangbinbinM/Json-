@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25A1FF3F1FAAC685005C93B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A1FF3E1FAAC685005C93B2 /* main.m */; };
+		25A1FF421FAAC685005C93B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A1FF411FAAC685005C93B2 /* AppDelegate.m */; };
+		25A1FF451FAAC685005C93B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A1FF441FAAC685005C93B2 /* ViewController.m */; };
+		25A1FF481FAAC685005C93B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A1FF461FAAC685005C93B2 /* Main.storyboard */; };
+		25A1FF4A1FAAC685005C93B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25A1FF491FAAC685005C93B2 /* Assets.xcassets */; };
+		25A1FF4D1FAAC686005C93B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25A1FF4B1FAAC685005C93B2 /* LaunchScreen.storyboard */; };
+		25A1FF581FAAC686005C93B2 /* Json____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A1FF571FAAC686005C93B2 /* Json____Tests.m */; };
+		E18C0AF6909F5B59C5A18529 /* Pods_Json____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B11D87E833E8E2ACBB288056 /* Pods_Json____.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25A1FF541FAAC686005C93B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25A1FF321FAAC685005C93B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25A1FF391FAAC685005C93B2;
+			remoteInfo = "Json基本使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25A1FF3A1FAAC685005C93B2 /* Json基本使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Json基本使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A1FF3E1FAAC685005C93B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25A1FF401FAAC685005C93B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25A1FF411FAAC685005C93B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25A1FF431FAAC685005C93B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25A1FF441FAAC685005C93B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25A1FF471FAAC685005C93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25A1FF491FAAC685005C93B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25A1FF4C1FAAC686005C93B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		25A1FF4E1FAAC686005C93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A1FF531FAAC686005C93B2 /* Json基本使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Json基本使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25A1FF571FAAC686005C93B2 /* Json____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Json____Tests.m; sourceTree = "<group>"; };
+		25A1FF591FAAC686005C93B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7428BDC7303DEE06D033EED2 /* Pods-Json基本使用.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Json基本使用.release.xcconfig"; path = "Pods/Target Support Files/Pods-Json基本使用/Pods-Json基本使用.release.xcconfig"; sourceTree = "<group>"; };
+		B11D87E833E8E2ACBB288056 /* Pods_Json____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Json____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC0A4CBBEC39B7F2DDE1B5B1 /* Pods-Json基本使用.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Json基本使用.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Json基本使用/Pods-Json基本使用.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25A1FF371FAAC685005C93B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18C0AF6909F5B59C5A18529 /* Pods_Json____.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A1FF501FAAC686005C93B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25A1FF311FAAC685005C93B2 = {
+			isa = PBXGroup;
+			children = (
+				25A1FF3C1FAAC685005C93B2 /* Json基本使用 */,
+				25A1FF561FAAC686005C93B2 /* Json基本使用Tests */,
+				25A1FF3B1FAAC685005C93B2 /* Products */,
+				775341E1946AE28AC5F6A73F /* Pods */,
+				CE4E5A63C344BA13B61741D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		25A1FF3B1FAAC685005C93B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25A1FF3A1FAAC685005C93B2 /* Json基本使用.app */,
+				25A1FF531FAAC686005C93B2 /* Json基本使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A1FF3C1FAAC685005C93B2 /* Json基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				25A1FF401FAAC685005C93B2 /* AppDelegate.h */,
+				25A1FF411FAAC685005C93B2 /* AppDelegate.m */,
+				25A1FF431FAAC685005C93B2 /* ViewController.h */,
+				25A1FF441FAAC685005C93B2 /* ViewController.m */,
+				25A1FF461FAAC685005C93B2 /* Main.storyboard */,
+				25A1FF491FAAC685005C93B2 /* Assets.xcassets */,
+				25A1FF4B1FAAC685005C93B2 /* LaunchScreen.storyboard */,
+				25A1FF4E1FAAC686005C93B2 /* Info.plist */,
+				25A1FF3D1FAAC685005C93B2 /* Supporting Files */,
+			);
+			path = "Json基本使用";
+			sourceTree = "<group>";
+		};
+		25A1FF3D1FAAC685005C93B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A1FF3E1FAAC685005C93B2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25A1FF561FAAC686005C93B2 /* Json基本使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				25A1FF571FAAC686005C93B2 /* Json____Tests.m */,
+				25A1FF591FAAC686005C93B2 /* Info.plist */,
+			);
+			path = "Json基本使用Tests";
+			sourceTree = "<group>";
+		};
+		775341E1946AE28AC5F6A73F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC0A4CBBEC39B7F2DDE1B5B1 /* Pods-Json基本使用.debug.xcconfig */,
+				7428BDC7303DEE06D033EED2 /* Pods-Json基本使用.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE4E5A63C344BA13B61741D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B11D87E833E8E2ACBB288056 /* Pods_Json____.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25A1FF391FAAC685005C93B2 /* Json基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A1FF5C1FAAC686005C93B2 /* Build configuration list for PBXNativeTarget "Json基本使用" */;
+			buildPhases = (
+				600115BCBCE29528E92F9190 /* [CP] Check Pods Manifest.lock */,
+				25A1FF361FAAC685005C93B2 /* Sources */,
+				25A1FF371FAAC685005C93B2 /* Frameworks */,
+				25A1FF381FAAC685005C93B2 /* Resources */,
+				AE080875D13EBFBC37A7C732 /* [CP] Embed Pods Frameworks */,
+				08D1D3B0A90D33D32EC5B26D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Json基本使用";
+			productName = "Json基本使用";
+			productReference = 25A1FF3A1FAAC685005C93B2 /* Json基本使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25A1FF521FAAC686005C93B2 /* Json基本使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25A1FF5F1FAAC686005C93B2 /* Build configuration list for PBXNativeTarget "Json基本使用Tests" */;
+			buildPhases = (
+				25A1FF4F1FAAC686005C93B2 /* Sources */,
+				25A1FF501FAAC686005C93B2 /* Frameworks */,
+				25A1FF511FAAC686005C93B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25A1FF551FAAC686005C93B2 /* PBXTargetDependency */,
+			);
+			name = "Json基本使用Tests";
+			productName = "Json基本使用Tests";
+			productReference = 25A1FF531FAAC686005C93B2 /* Json基本使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25A1FF321FAAC685005C93B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = tbb;
+				TargetAttributes = {
+					25A1FF391FAAC685005C93B2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					25A1FF521FAAC686005C93B2 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 25A1FF391FAAC685005C93B2;
+					};
+				};
+			};
+			buildConfigurationList = 25A1FF351FAAC685005C93B2 /* Build configuration list for PBXProject "Json基本使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25A1FF311FAAC685005C93B2;
+			productRefGroup = 25A1FF3B1FAAC685005C93B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25A1FF391FAAC685005C93B2 /* Json基本使用 */,
+				25A1FF521FAAC686005C93B2 /* Json基本使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25A1FF381FAAC685005C93B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A1FF4D1FAAC686005C93B2 /* LaunchScreen.storyboard in Resources */,
+				25A1FF4A1FAAC685005C93B2 /* Assets.xcassets in Resources */,
+				25A1FF481FAAC685005C93B2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A1FF511FAAC686005C93B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08D1D3B0A90D33D32EC5B26D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Json基本使用/Pods-Json基本使用-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		600115BCBCE29528E92F9190 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Json基本使用-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE080875D13EBFBC37A7C732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Json基本使用/Pods-Json基本使用-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Json基本使用/Pods-Json基本使用-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25A1FF361FAAC685005C93B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A1FF451FAAC685005C93B2 /* ViewController.m in Sources */,
+				25A1FF421FAAC685005C93B2 /* AppDelegate.m in Sources */,
+				25A1FF3F1FAAC685005C93B2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A1FF4F1FAAC686005C93B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25A1FF581FAAC686005C93B2 /* Json____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25A1FF551FAAC686005C93B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25A1FF391FAAC685005C93B2 /* Json基本使用 */;
+			targetProxy = 25A1FF541FAAC686005C93B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25A1FF461FAAC685005C93B2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A1FF471FAAC685005C93B2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25A1FF4B1FAAC685005C93B2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25A1FF4C1FAAC686005C93B2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25A1FF5A1FAAC686005C93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		25A1FF5B1FAAC686005C93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25A1FF5D1FAAC686005C93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC0A4CBBEC39B7F2DDE1B5B1 /* Pods-Json基本使用.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Json基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tbb.Json----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25A1FF5E1FAAC686005C93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7428BDC7303DEE06D033EED2 /* Pods-Json基本使用.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Json基本使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tbb.Json----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25A1FF601FAAC686005C93B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Json基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tbb.Json----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Json基本使用.app/Json基本使用";
+			};
+			name = Debug;
+		};
+		25A1FF611FAAC686005C93B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Json基本使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tbb.Json----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Json基本使用.app/Json基本使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25A1FF351FAAC685005C93B2 /* Build configuration list for PBXProject "Json基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A1FF5A1FAAC686005C93B2 /* Debug */,
+				25A1FF5B1FAAC686005C93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25A1FF5C1FAAC686005C93B2 /* Build configuration list for PBXNativeTarget "Json基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A1FF5D1FAAC686005C93B2 /* Debug */,
+				25A1FF5E1FAAC686005C93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25A1FF5F1FAAC686005C93B2 /* Build configuration list for PBXNativeTarget "Json基本使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25A1FF601FAAC686005C93B2 /* Debug */,
+				25A1FF611FAAC686005C93B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25A1FF321FAAC685005C93B2 /* Project object */;
+}
